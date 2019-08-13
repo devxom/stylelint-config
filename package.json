@@ -4,7 +4,30 @@
   "description": "Selfpub's base JS StyleLint config.",
   "main": "index.js",
   "repository": "git@github.com:selfpub-org/stylelint-config.git",
+  "keywords": [
+    "selfpub",
+    "stylelint",
+    "stylelintconfig",
+    "config",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/selfpub-org/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/selfpub-org/stylelint-config",
   "author": "eshavrov <shavrov.ep@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "stylelint-processor-styled-components": "^1.8.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^10.1.0"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "devDependencies": {
+    "stylelint": "^10.1.0"
+  }
 }
